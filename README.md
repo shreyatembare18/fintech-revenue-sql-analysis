@@ -155,7 +155,7 @@ May experienced a **6.73% decline**, followed by a strong **27.30% recovery in J
 
 ---
 
-## 👥 Top Revenue-Generating Customers
+## 👥 Customer Revenue Ranking
 
 The `RANK()` window function was used to rank customers based on their total fee revenue.
 
@@ -174,7 +174,7 @@ The `RANK()` window function was used to rank customers based on their total fee
 
 ### Key Insight
 
-**Vikram Singh generated the highest fee revenue at ₹974.**
+**Vikram Singh was the highest revenue-generating customer, contributing ₹974 in transaction fees.**
 
 ---
 
@@ -205,7 +205,7 @@ The `RANK()` window function was used to rank customers based on their total fee
 
 ### Key Insight
 
-**Card Payment generated the highest fee revenue at ₹2,174**, making it the strongest transaction type in the dataset.
+**Card Payment generated the highest fee revenue at ₹2,174**, making it the strongest transaction type in this dataset.
 
 ---
 
@@ -255,6 +255,14 @@ by the end of June 2025.
 
 ---
 
+## 🏆 Highest-Value Transactions
+
+The project also identifies the **top 10 completed transactions based on transaction amount**.
+
+This analysis helps identify high-value transactions and understand which customers and transaction types contribute significantly to overall transaction volume.
+
+---
+
 # 🔍 Business Insights
 
 The analysis highlights several important business findings:
@@ -267,7 +275,7 @@ The analysis highlights several important business findings:
 6. **Card Payment was the highest-revenue transaction type**, generating ₹2,174.
 7. **Mumbai was the highest-revenue city**, generating ₹1,646.
 8. The dataset recorded a strong **93.33% transaction success rate**.
-9. **May showed a temporary revenue decline**, but revenue recovered strongly in June.
+9. **May showed a temporary revenue decline**, followed by a strong recovery in June.
 10. SQL window functions such as `LAG()` and `RANK()` helped identify revenue growth patterns and customer rankings.
 
 ---
@@ -387,16 +395,15 @@ This project demonstrates how SQL can be used to analyze FinTech transaction dat
 
 The analysis generated **₹5,016 in fee revenue from ₹3,70,900 in completed transaction value**, with a strong **93.33% transaction success rate**.
 
-The project also demonstrates the practical application of advanced SQL techniques such as **CTEs, `LAG()`, `RANK()`, window functions, conditional logic, aggregation, and subqueries** to solve real-world financial analytics problems.
+The project demonstrates the practical application of advanced SQL techniques such as **CTEs, `LAG()`, `RANK()`, window functions, conditional logic, aggregation, and subqueries** to solve real-world financial analytics problems.
 
 ---
 
 ## 👩‍💻 Author
 
 **Shreya Tembare**
-
 *FinTech Student | SQL & Financial Data Analytics*
-
+17-08-2026
 ---
 
 ⭐ **If you found this project useful, consider giving the repository a star!**
